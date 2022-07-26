@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_setting"
+        android:shortcutDisabledMessage="@string/shortcuts_expand_setting_bar"
+        android:shortcutId="shortcuts_expand_setting_bar"
+        android:shortcutLongLabel="@string/shortcuts_expand_setting_bar"
+        android:shortcutShortLabel="@string/shortcuts_expand_setting_bar"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="com.yugle.expandstatusbar.setting"
+            android:targetClass="com.yugle.expandstatusbar.MainActivity"
+            android:targetPackage="com.yugle.expandstatusbar" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_notification"
+        android:shortcutDisabledMessage="@string/shortcuts_expand_notification_bar"
+        android:shortcutId="shortcuts_expand_notification_bar"
+        android:shortcutLongLabel="@string/shortcuts_expand_notification_bar"
+        android:shortcutShortLabel="@string/shortcuts_expand_notification_bar"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="com.yugle.expandstatusbar.notification"
+            android:targetClass="com.yugle.expandstatusbar.MainActivity"
+            android:targetPackage="com.yugle.expandstatusbar" />
+    </shortcut>
+</shortcuts>

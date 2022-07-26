@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">快捷通知</string>
+    <string name="shortcuts_expand_notification_bar">通知</string>
+    <string name="shortcuts_expand_notification_bar_action">com.yugle.expandstatusbar.notification</string>
+    <string name="shortcuts_expand_setting_bar">控制中心</string>
+    <string name="shortcuts_expand_setting_bar_action">com.yugle.expandstatusbar.setting</string>
+</resources>
